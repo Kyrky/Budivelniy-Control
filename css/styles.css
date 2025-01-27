@@ -212,7 +212,7 @@ nav {
 .hero {
     margin-top: 80px;
     padding: 4rem 1rem;
-    min-height: 70vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -220,6 +220,12 @@ nav {
                 url('../images/bg.png') center/cover;
     color: white;
     text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .hero {
+        min-height: 50vh;
+    }
 }
 
 .hero h1 {
