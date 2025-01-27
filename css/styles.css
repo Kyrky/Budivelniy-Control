@@ -1084,10 +1084,27 @@ footer {
 
 .about-section {
     padding: 6rem 2rem;
-    background: linear-gradient(45deg, #f8f9fa 0%, #e9f2ff 100%);
     position: relative;
     overflow: hidden;
 }
+
+.about-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/logo.png');
+    background-size: 45%; /* Измените процент для регулировки масштаба изображения */
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.7; /* Прозрачность фона (0 - полностью прозрачно, 1 - не прозрачно) */
+    z-index: -1; /* Убедитесь, что псевдоэлемент находится на заднем плане */
+}
+
+
+
 
 .about-container {
     max-width: 1200px;
