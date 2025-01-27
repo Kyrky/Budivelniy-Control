@@ -1,0 +1,95 @@
+{
+    "projects": [
+      {
+        "title": "ТЦ Ocean Mall",
+        "description": "Торговий центр з розважальною зоною",
+        "image": "images/projects/tc_ocean_mall.png",
+        "location": "Місто Київ"
+      },
+      {
+        "title": "Трипільська ТЕЦ",
+        "description": "Теплова Елекстростанція",
+        "image": "images/projects/tripilska_tec.png",
+        "location": "Київська Область"
+      },
+      {
+        "title": "Київ Пивзавод Славутич",
+        "description": "Пивоварний завод з відомими марками пива",
+        "image": "images/projects/kiev_pivzavod_slavutich.png",
+        "location": "Місто Київ"
+      },
+      {
+        "title": "Завод Coca-Cola Дімерка",
+        "description": "Виробничий комплекс безалкогольних напоїв",
+        "image": "images/projects/zavod_cola_dimerka.png",
+        "location": "Київська Область"
+      },
+      {
+        "title": "ЖК Променада",
+        "description": "Житловий комплекс біля паркової зони",
+        "image": "images/projects/jk_promenada.png",
+        "location": "Київська Область"
+      },
+      {
+        "title": "ЖК Orange Park",
+        "description": "Сучасний житловий комплекс з інфраструктурою",
+        "image": "images/projects/jk_orange_park.png",
+        "location": "Київська Область"
+      },
+      {
+        "title": "НОВУС на Оболоні",
+        "description": "Торгово-розважальний комплекс",
+        "image": "images/projects/novus_na_obolini.png",
+        "location": "Місто Київ"
+      },
+      {
+        "title": "Завод Grand Beton",
+        "description": "Виробництво бетону та будівельних сумішей",
+        "image": "images/projects/zavod_grand_beton.png",
+        "location": "Київська Область"
+      },
+      {
+        "title": "ЖК Євромісто",
+        "description": "Інноваційний житловий комплекс",
+        "image": "images/projects/jk_evromisto.png",
+        "location": "Київська Область"
+      },
+      {
+        "title": "ЖК Синергія-3",
+        "description": "Розвинений житловий комплекс з інфраструктурою",
+        "image": "images/projects/jk_sinergia.png",
+        "location": "Ірпінь"
+      },
+      {
+        "title": "ЖК Синергія Сіті",
+        "description": "Розвинений житловий комплекс з інфраструктурою",
+        "image": "images/projects/jk_sinergia_city.png",
+        "location": "Ірпінь"
+      },
+      {
+        "title": "Завод Dyckerhoff Ukraine",
+        "description": "Виробник бетону та будівельних сумішей",
+        "image": "images/projects/zavod_dyckergoff.png",
+        "location": "Місто Київ"
+      },
+      {
+        "title": "ЖК Лісовий квартал",
+        "description": "Екологічно чистий житловий комплекс",
+        "image": "images/projects/jk_lisoviy_kvartal.png",
+        "location": "Бровари"
+      },
+      {
+        "title": "ЖК Ілінський",
+        "description": "Модернізований житловий комплекс з сучасними зручностями",
+        "image": "images/projects/jk_ilinskiy.png",
+        "location": "Місто Київ"
+      },
+      {
+        "title": "Об'єкти Інфраструктури",
+        "description": "Інфраструктура для енергетичних об'єктів",
+        "image": "images/projects/energo_structura.png",
+        "location": "Київська, Дніпропетровська, Волинська область"
+      }
+    ]
+  }
+  
