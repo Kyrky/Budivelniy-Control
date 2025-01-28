@@ -49,6 +49,12 @@ nav {
     display: flex;
     align-items: center;
     height: 60px;  
+    display: none;
+}
+
+.title-nav {
+    display: inline-block;
+    color: white;
 }
 
 .logo-image {
@@ -58,7 +64,16 @@ nav {
     margin-right: 0.5rem;  
 }
 
+@media (max-width: 768px) {
+    .title-nav {
+        display: none; 
+    }
 
+    .logo {
+        display: block;
+        margin-bottom: 25px;
+    }
+}
 
 @media (max-width: 768px) {
     .brick-logo {
@@ -88,6 +103,7 @@ nav {
     position: relative;
     display: inline-block;
     width: 300px;
+    padding-left: 25px;
 }
 
 .search-input {
@@ -150,6 +166,7 @@ nav {
         width: 250px;
         margin-left: 25px;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -220,6 +237,10 @@ nav {
                 url('../images/bg.png') center/cover;
     color: white;
     text-align: center;
+}
+
+.underhero {
+    font-size: 25px;
 }
 
 @media (max-width: 1000px) {
@@ -795,7 +816,13 @@ footer {
     flex-wrap: wrap;
 }
 
-.download-btn,
+.certificate-links {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    justify-content: center; /* Вирівнювання по центру */
+}
+
 .preview-btn {
     display: inline-flex;
     align-items: center;
@@ -805,22 +832,10 @@ footer {
     text-decoration: none;
     font-size: 0.9rem;
     transition: all 0.3s ease;
-}
-
-.download-btn {
-    background: var(--primary-blue);
-    color: white;
-    border: 2px solid transparent;
-}
-
-.download-btn:hover {
-    background: var(--secondary-blue);
-}
-
-.preview-btn {
     background: transparent;
     color: var(--primary-blue);
     border: 2px solid var(--primary-blue);
+    width: 100%; /* Зробити кнопку на всю ширину */
 }
 
 .preview-btn:hover {
@@ -833,12 +848,13 @@ footer {
         flex-direction: column;
     }
     
-    .download-btn,
     .preview-btn {
         justify-content: center;
-        width: 100%;
+        width: 100%; /* Зробити кнопку на всю ширину на мобільних пристроях */
     }
 }
+
+
 
 /* Search Results Improvements */
 .search-result-item {
@@ -1101,11 +1117,11 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/logo.png');
+    background-image: url('../images/aboutUs.png');
     background-size: 45%; 
     background-position: center center;
     background-repeat: no-repeat;
-    opacity: 0.7; 
+    opacity: 0.6; 
     z-index: -1; 
 }
 
@@ -1179,6 +1195,7 @@ footer {
     padding: 2rem;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    opacity: 0.9;
 }
 
 .achievement-item {
@@ -1186,6 +1203,7 @@ footer {
     align-items: center;
     gap: 1.5rem;
     margin: 2rem 0;
+    opacity: 0.9;
 }
 
 .achievement-icon {
